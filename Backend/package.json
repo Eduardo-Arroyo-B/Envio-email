@@ -1,0 +1,28 @@
+{
+  "name": "envio-email",
+  "version": "1.0.0",
+  "description": "Backend para el envio de datos",
+  "keywords": [
+    "backend",
+    "express",
+    "node",
+    "nodemailer",
+    "express-validator"
+  ],
+  "license": "ISC",
+  "author": "Eduardo Iran Arroyo Bravo",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "nodemailer": "^7.0.5",
+    "nodemon": "^3.1.10"
+  }
+}
